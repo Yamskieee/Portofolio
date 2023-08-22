@@ -1,0 +1,128 @@
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+/* Landing Page */
+#landing-page {
+    background-image:url('../latihan 3/image/bg.jpg');
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+}
+
+div {
+    display: block;
+}
+
+.welcome {
+    color: white;
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    top: 45%;
+    text-align: center;
+    transform: scale(.8);
+}
+
+h1, h2, h3{
+    font-family: 'Edu SA Beginner', cursive;
+    font-weight: 600;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+}
+
+/* Navbar */
+ul {
+    display: block;
+}
+ul.nav {
+    position: sticky;
+    top: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #272829;
+}
+
+li.nav-icon {
+    padding: 0;
+    width: 45px;
+    margin: 0.3em 1em;
+    float: left;
+}
+
+.nav > li {
+    display: inline-block;
+    margin: auto;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+}
+
+.nav > li > a {
+    padding: 1em 2em;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    transition: 5s;
+}
+
+a:-webkit-any-link{
+    color: -web-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 600px) {
+    ul.nav {
+        text-align: right;
+    }
+}
+
+
+/* About Me */
+div {
+    display: block;
+}
+
+.introduction, .education, .working {
+    text-align: center;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.img-icon {
+    max-width: 12em;
+}
+
+.perkenalan {
+    font-size: 1.2em;
+    width: 80%;
+    max-width: 24em;
+    margin: 1em auto;
+    text-align: justify;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.education, .working {
+    display: inline-block;
+    margin-top: 5em;
+}
+
